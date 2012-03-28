@@ -1,0 +1,41 @@
+<button onclick="foo())">
+
+<button id="aa">
+
+<script>
+document.getElementById("aa").onclick = foo;
+document.getElementsByTagName("button")[0].onclick
+
+$("#aa").click(foo).hide().show(); //chaining
+
+// JQuery "normaliserar" händelser = likadan funktion i alla webbläsare
+
+
+
+Uppgift: Mata in din födelsedag och räkna ut din ålder i år och dagar.
+
+Brainstorm:
+
+* Hur mata in?
+* Hur få datorn att förstå vad jag matat in?
+    * Datumformat
+* Hur hitta dagens datum?
+* Matematiken - alternativa sätt att räkna
+    * Testa
+* Grov lösning - proof of concept
+* Alpha
+* Beta = feature complete
+* Skarp version = buggfixad och polerad
+
+För denna lilla uppgift kan dessa faser passeras inom loppet av några minuter.
+
+In- och utmatning proof of concept nivå
+prompt()
+alert() eller console.log()
+
+Hantering av matematiken: Läs om och testa (i konsollen eller "kladdblocket") okjektet Date.
+
+In- och utmatning beta-nivå
+Via DOM och händelsehantering
+
+

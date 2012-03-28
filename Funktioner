@@ -1,0 +1,13 @@
+
+
+function dubbla(x) {
+    return 2 * x;
+}
+console.log(dubbla(3));
+console.log(dubbla(12));
+console.log(dubbla(Math.PI));
+
+// function expression
+var halvera(x) {
+    return x / 2;
+}
